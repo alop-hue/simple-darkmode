@@ -1,0 +1,40 @@
+:root{
+    --base-color: rgb(162, 144, 104);
+    --base-variant: rgb(173, 35, 129);
+    --text-color: black;
+    --secondry-text-color: gray ;
+    --praimary-color: rgb(189, 207, 56);
+    --secondry-color: rgb(84, 84, 204);
+}
+.darkmode{
+     --base-color: rgb(45, 45, 45);
+    --base-variant: rgb(19, 22, 19);
+    --text-color: rgb(240, 225, 225);
+    --secondry-text-color: gray ;
+    --praimary-color: rgb(50, 50, 50);
+    --secondry-color: rgb(15, 15, 22);
+}
+body{
+    background-color: var(--base-color);
+    color: var(--text-color);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+button{
+    padding: 10px;
+    border: none;
+    background-color: var(--base-variant);
+    border-radius: 10px;
+    margin: 10px;
+    color: var(--secondry-text-color);
+}
+div{
+    background-color: var(--secondry-color);
+    padding: 12px;
+    margin: 15px;
+    border: solid var(--base-variant);
+    border-radius: 12px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px -10px -10px ;
+}
